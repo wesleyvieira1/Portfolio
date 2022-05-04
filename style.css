@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    
+    
+}
+body{
+   background: linear-gradient(to top, rgb(25, 25, 143), red)
+
+}
+
+.title-sec{
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Impact, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.sec-five .title-sec{
+    padding-bottom: 1%;
+}
+.sec-six .title-sec{
+    padding-bottom: 1%;
+}
+.sec-two .apresentation{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 3%;
+    padding-bottom: 1%;
+    width: 100%;
+    font-size: 18px;
+
+}
+
+.sec-three .apresentation{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 3%;
+    padding-bottom: 1%;
+    width: 100%;
+    font-size: 18px;
+}
+.sec-three .content{
+    display: flex;
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    
+}
+.sec-four .content{
+    display: flex;
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+.sec-four .content{
+    display: flex;
+    margin: 0%;
+
+}
+.sec-four .apresentation{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 3%;
+    padding-bottom: 1%;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card{
+    background: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.253);
+    border-radius: 10px;
+    width: 350px;
+    margin-right: 35px;
+    margin: 10px;
+}
+
+.card-title{
+    text-align: left;
+    margin: 10px;
+    color: black;
+}
+
+.card-language{
+    text-align: left;
+    margin-top: -7px;
+    margin: 10px;
+    color: black;
+}
+
+.card-description{
+    text-align: left;
+    margin: 10px;
+    padding: 0.2cm;
+    color: black;
+}
+
+.card-link{
+    margin: 10px;
+    background: none;
+    color:red;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.card-body img{
+    height: 300px;
+    width: 100%;
+}
+
+.sec-one .container{
+    width: 599px;
+    padding: 100px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5cm;
+}
+.sec-one .Name{
+    text-transform: uppercase;
+    font-family: Impact,sans-serif;
+    margin-top: 10px;
+}
+
+.perfil-icon{
+    height: 200px;
+    width: 200px;
+    max-width: 200px;
+    border-radius: 100px;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.nav-logo{
+    color:white;
+    font-size: 28px;
+}
+
+
+.nav-bar li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.nav-item{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-item:hover{
+    color: blueviolet;
+}
+
+button{
+    border: none;
+    background-color: blueviolet;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+button a{
+    text-decoration: none;
+}
+.button-more{
+    text-align: center;
+}
+
+.lang{
+    text-align: center;
+}
+
+.img-ctt{
+    text-align:center;
+}
+
+.rodapé{
+    padding-top: 5%;
+    margin-bottom: 20px;
+}
+
+.rodapé p{
+    color:grey;
+}
+html{
+    scroll-behavior: smooth;
+}
